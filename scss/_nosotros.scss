@@ -1,0 +1,50 @@
+.nosotros{
+    display: grid;
+    grid-template-areas:
+    "nosotrosImagenes1 nosotrosTexto nosotrosTexto"
+    "nosotrosImagenes2 nosotrosTexto nosotrosTexto"
+    "nosotrosImagenes3 nosotrosTexto nosotrosTexto"
+    ;
+    .nosotrosImagenes1 {
+        width: 300px;
+        grid-area: nosotrosImagenes1;
+        margin: 30px 10px 10px 30px; 
+    }
+    
+    .nosotrosImagenes2 {
+        width: 300px;
+        grid-area: nosotrosImagenes2;
+        margin: 30px 10px 10px 30px; 
+    }
+    
+    .nosotrosImagenes3 {
+        width: 300px;
+        grid-area: nosotrosImagenes3;
+        margin: 30px 10px 10px 30px; 
+    }
+
+    .nosotrosTexto{
+        
+        grid-area: nosotrosTexto;
+        
+        font-weight: bold;
+        
+        margin: 50px 20px 10px 50px;
+        font-size: $textL;
+    }
+}
+
+@media (min-width:320px) and (max-width: 768px) {
+    .nosotrosImagenes1{ display: none;
+    }
+    .nosotrosImagenes2{ display: none;
+    }
+    .nosotrosImagenes3{ display: none;
+    }
+    
+    
+
+    .logoWatts{
+        width: 15%;
+    }
+}

@@ -1,0 +1,19 @@
+.fondo{
+    background-image: url(../img/consultorio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+
+
+    .textoLorem{
+        color: $secondaryColor;
+        background-color: $mainColor;
+        font-size: $textL;
+        width: 80%;
+        margin-top: 5%;
+        margin-bottom: 30%;
+        padding: 5% 5% 5% 5%;
+    }
+}
+

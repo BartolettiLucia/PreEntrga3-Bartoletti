@@ -1,0 +1,21 @@
+.menuPrincipal{
+    background-color: $secondaryColor;
+    font-family: $mainFont;
+
+    .logo{
+        width: 30vw;
+    }
+    .fuentesNav{
+        font-size: $textXL;
+    }
+
+    .menuSecundario{
+        font-size: $textSm;
+    }
+
+    .nav-item:hover{
+        background-color: $mainColor;
+        color: $secondaryColor;
+        transition: all 1s;
+    }
+}

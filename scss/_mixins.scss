@@ -1,0 +1,17 @@
+@mixin flexbox ($dire, $align, $justify, $wrap){
+    display: flex;
+    flex-direction: $dire;
+    align-items: $align;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+}
+
+.fondo{
+    @include flexbox(row,center ,center ,wrap )
+}
+
+.cepillos{
+    @include flexbox(row,flex-start ,space-around ,wrap )
+}
+
+

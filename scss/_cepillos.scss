@@ -1,0 +1,44 @@
+
+.cepillos{
+    
+    
+
+    p{
+        font-size: $textL;
+        background-color: $mainColor;
+        color: $secondaryColor;
+        width: 70%;
+        padding: 1em;
+        margin-top: 4%;
+        
+    }
+    img{
+        width: 20%;
+        
+        
+    }
+    .dos{
+        margin-bottom: 3%;
+    }
+    
+}
+
+h2{
+    padding: 2% 0 2% 5%;
+}
+
+
+@keyframes cepillitos {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.cepillos{
+    animation-name: cepillitos;
+    animation-duration: 2s;
+    
+}
